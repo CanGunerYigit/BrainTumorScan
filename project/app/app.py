@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Klasör yolları
 STATIC_FOLDER = 'C:/Users/TR/Desktop/project/app/static'
 UPLOAD_FOLDER = 'C:/Users/TR/Desktop/project/app/uploads'
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg','tif'}
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
